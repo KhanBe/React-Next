@@ -8,10 +8,14 @@ Desktop\Next\test> npm install //자바스크립트패키지매니저
 
 
 - app 파일의 page.js가 메인 페이지를 다루게 된다.
-- package.json 에서 버전을 다룰 수 있다.
-- 
+- package.json : 설치한 라이브러리를 자동으로 기록해주는 파일.
+- layout.js : page.js를 감싸는 파일.
+- globals.css : css다루는 파일.
+- ???.module.css : 특정 페이지만 css적용 시키는 파일.
+- api\route.js : api폴더는 서버기능을 만드는 곳.
+- node_modules : 프로젝트 구동에 필요한 모든 라이브러리 파일을 보관하는 공간.
+- public : 이미지나 폰트파일 담는 (소스코드 외) 공간.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -24,26 +28,3 @@ yarn dev
 # or
 pnpm dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.js`.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
