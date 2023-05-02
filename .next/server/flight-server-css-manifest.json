@@ -1,0 +1,15 @@
+{
+  "__entry_css_mods__": {
+    "/Users/woo/Next/test/app/page": [
+      "/Users/woo/Next/test/app/globals.css",
+      "/Users/woo/Next/test/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ]
+  },
+  "/Users/woo/Next/test/app/page.js": [
+    "/Users/woo/Next/test/app/page.module.css"
+  ],
+  "/Users/woo/Next/test/app/layout.js": [
+    "/Users/woo/Next/test/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+    "/Users/woo/Next/test/app/globals.css"
+  ]
+}
