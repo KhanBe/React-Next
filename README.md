@@ -1,8 +1,15 @@
-Create project int terminal
+First > Create project int terminal
 
-```
+```bash
 Desktop\Next\test> npx create-next-app@latest --experimental-app
+Download Complate!
+Desktop\Next\test> npm install //자바스크립트패키지매니저
 ```
+
+
+- app 파일의 page.js가 메인 페이지를 다루게 된다.
+- package.json 에서 버전을 다룰 수 있다.
+- 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
