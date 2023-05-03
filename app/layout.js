@@ -14,7 +14,8 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className="nana">
           <Link href="/">홈</Link>
-          <Link href="/list">List</Link>
+          <Link href="/list">리스트</Link>
+          <Link href="/cart">장바구니</Link>
         </div>
         {children}
       </body>
