@@ -35,3 +35,10 @@ pnpm dev
 - class 넣을 때 className으로 넣어준다. 자바스크립트의 class랑 겹치기 때문
 - HTML안에 변수 넣는 방법은 {} 중괄호.
 - style 속성을 넣으러면 style={{ color : ???, font : ???}} 이런식.
+
+
+- Routing : url로 페이지를 나누는 행위.
+- 페이지 만드는 방법 : app 아래에 폴더 만들고 그 아래에 page.js파일 만들면 끝.
+- 모든 페이지에 보일 HTML작성 방법 : layout.js에 작성한다.
+- layout.js의 함수에 {children}은 page.js가 들어가게 된다.
+- 동작 원리 : 같은파일에 layout.js가 있으면 page.js를 감싼 후 보여주게 된다. 또 상위폴더에 layout.js가 있으면 한번 더 감싸서 보여주는 원리이다.
