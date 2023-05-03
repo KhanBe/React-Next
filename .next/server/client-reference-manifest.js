@@ -103,6 +103,32 @@ self.__RSC_MANIFEST={
         "name": "default",
         "async": false
       }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "chunks": [
+          "app/list/page:app/list/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "chunks": [
+          "app/list/page:app/list/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "chunks": [
+          "app/list/page:app/list/page"
+        ],
+        "name": "default",
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -300,6 +326,54 @@ self.__RSC_MANIFEST={
     "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
     "chunks": [
       "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/woo/Next/test/node_modules/next/dist/client/link.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/link.js",
+    "chunks": [
+      "app/list/page:app/list/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/woo/Next/test/node_modules/next/dist/esm/client/link.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/link.js",
+    "chunks": [
+      "app/list/page:app/list/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/woo/Next/test/node_modules/next/dist/client/link.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/link.js",
+    "chunks": [
+      "app/list/page:app/list/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/woo/Next/test/node_modules/next/dist/esm/client/link.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/link.js",
+    "chunks": [
+      "app/list/page:app/list/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/woo/Next/test/node_modules/next/dist/client/link.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/link.js",
+    "chunks": [
+      "app/list/page:app/list/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/woo/Next/test/node_modules/next/dist/esm/client/link.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/link.js",
+    "chunks": [
+      "app/list/page:app/list/page"
     ],
     "name": "default",
     "async": false

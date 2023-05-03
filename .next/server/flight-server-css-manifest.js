@@ -3,6 +3,14 @@ self.__RSC_CSS_MANIFEST={
     "/Users/woo/Next/test/app/page": [
       "/Users/woo/Next/test/app/globals.css",
       "/Users/woo/Next/test/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ],
+    "/Users/woo/Next/test/app/list/page": [
+      "/Users/woo/Next/test/app/globals.css",
+      "/Users/woo/Next/test/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ],
+    "/Users/woo/Next/test/app/abc/page": [
+      "/Users/woo/Next/test/app/globals.css",
+      "/Users/woo/Next/test/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ]
   },
   "/Users/woo/Next/test/app/layout.js": [
