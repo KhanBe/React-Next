@@ -77,7 +77,7 @@ let brr = arr.map((a, i)=>{
 }
 ```
 
-결국 {} 자리에 [<div>,<div>,<div>]가 남게 되는 구조이다.
+결국 {} 자리에 ```[<div>,<div>,<div>]```가 남게 되는 구조이다.
 
 map 반복문 사용시 리액트에서는 키 속성 key={value}를 넣어주는걸 권장한다.
 반복문으로 구분하기 힘들어서
@@ -142,9 +142,9 @@ function CartItem() {
 - 자바스크립트 기능을 넣을 수 있다.
 - 로딩속도가 느리다. (자바스크립트 필요 문제, hydration과정을 거쳐야 하는 문제)
 
-** *hydration ** : 유저에게 html을 보낸 후 자바스크립트로 html을 다시 읽고 분석하는 과정
+***hydration** : 유저에게 html을 보낸 후 자바스크립트로 html을 다시 읽고 분석하는 과정
 
-#### 결론
+### 결론
 큰 페이지는 server component를 추천
 JS기능이 필요한 곳만 client component 추천
 
