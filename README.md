@@ -28,3 +28,10 @@ yarn dev
 # or
 pnpm dev
 ```
+
+## React 문법 규칙
+
+- return () 안에 HTML 넣을 때 1개의<태그>로 시작해서 끝나야한다.
+- class 넣을 때 className으로 넣어준다. 자바스크립트의 class랑 겹치기 때문
+- HTML안에 변수 넣는 방법은 {} 중괄호.
+- style 속성을 넣으러면 style={{ color : ???, font : ???}} 이런식.
